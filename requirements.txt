@@ -1,0 +1,15 @@
+# Data handling
+pandas>=1.5
+numpy>=1.21
+
+# Rule-based data generation
+faker>=19.0
+
+# Synthetic data modeling (use one of the two options below)
+sdv>=1.5.0           # If using CTGAN/TVAE from SDV
+# torch>=2.0         # Uncomment if building your own GAN in PyTorch
+# torchvision        # Optional if doing any visual GANs
+
+# Evaluation & visualization
+sdmetrics>=0.10.0    # For evaluating synthetic data quality
+
